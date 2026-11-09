@@ -60,7 +60,7 @@ export function CreateRuleForm({ userId, triggerSource, onSuccess, editRule }: C
 
   /* ---------- EXTRAS ---------- */
   const [name, setName] = useState("")
-  const [checkFollow, setCheckFollow] = useState(false)
+  const [checkFollow, setCheckFollow] = useState(true) // Hub2Grow: toda palavra nova já nasce exigindo seguir
   const [delaySeconds, setDelaySeconds] = useState(0)
   const [typingIndicator, setTypingIndicator] = useState(false)
 
